@@ -1,0 +1,14 @@
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ReaLTaiizor.dll
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ReaLTaiizor.xml
+S:\Proiecte_Csharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
