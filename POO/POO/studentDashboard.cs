@@ -21,7 +21,7 @@ namespace POO
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //suck my balls
         }
 
         private void button4_Click(object sender, EventArgs e)
