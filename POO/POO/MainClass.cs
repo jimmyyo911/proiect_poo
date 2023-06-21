@@ -19,13 +19,15 @@ namespace POO
         static string con_string = "Server=sql7.freesqldatabase.com;Database=sql7627550;Uid=sql7627550;Pwd=xJfICE3bHl;";
         public static MySqlConnection con = new MySqlConnection(con_string);
 
-        //Method to check user validation
         public static void check() {
             con.Open();
             if (con.State == ConnectionState.Open)
             {
                 // Connection was successful
                 Console.WriteLine("Connection successful!");
+
+           
+
             }
             else
             {
@@ -35,6 +37,9 @@ namespace POO
             con.Close();
 
         }
+
+      
+        
 
         public static bool isValidUser(string user, string pass) {
          
