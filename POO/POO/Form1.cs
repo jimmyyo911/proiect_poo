@@ -60,6 +60,7 @@ namespace POO
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
 
+            
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -77,9 +78,30 @@ namespace POO
 
         private void loginInStudent_Click(object sender, EventArgs e)
         {
-            loadingScreen loadingScreen = new loadingScreen();
+
+
+            /*loadingScreen loadingScreen = new loadingScreen();
             this.Hide();
-            loadingScreen.Show();
+            loadingScreen.Show();*/
+
+      
+            
+            if (MainClass.isValidUser(guna2TextBox1.Text, guna2TextBox2.Text) == false)
+            {
+
+
+          
+
+                 Console.WriteLine("sucks");
+                 return;
+
+            }
+            else {
+                loadingScreen loadingScreen = new loadingScreen();
+                this.Hide();
+                loadingScreen.Show();
+            }
+         
         }
     }
 }
