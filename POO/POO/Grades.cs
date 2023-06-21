@@ -31,6 +31,7 @@ namespace POO
         }
         private void LoadData()
         {
+          //  ghjhgjghjgh
             string query = "SELECT * FROM nume";
 
             MySqlCommand command = new MySqlCommand(query, connection);
