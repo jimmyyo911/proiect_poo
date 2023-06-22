@@ -272,6 +272,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminDashboard.Designer.cs">
+      <DependentUpon>adminDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Courses.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -320,6 +326,12 @@
     <Compile Include="loadingScreen.Designer.cs">
       <DependentUpon>loadingScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="loadingScreenAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadingScreenAdmin.Designer.cs">
+      <DependentUpon>loadingScreenAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainClass.cs" />
     <Compile Include="Model\frmCategoryAdd.cs">
       <SubType>Form</SubType>
@@ -359,6 +371,9 @@
     <Compile Include="View\frmCategoryView.Designer.cs">
       <DependentUpon>frmCategoryView.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="adminDashboard.resx">
+      <DependentUpon>adminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Courses.resx">
       <DependentUpon>Courses.cs</DependentUpon>
     </EmbeddedResource>
@@ -379,6 +394,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="loadingScreen.resx">
       <DependentUpon>loadingScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadingScreenAdmin.resx">
+      <DependentUpon>loadingScreenAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model\frmCategoryAdd.resx">
       <DependentUpon>frmCategoryAdd.cs</DependentUpon>

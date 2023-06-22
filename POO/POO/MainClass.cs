@@ -116,8 +116,51 @@ namespace POO
                 MessageBox.Show(ex.ToString());
                 con.Close();
             }
-        
          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public static bool isValidAdmin(string user, string pass)
+        {
+
+            bool isValid = false;
+
+            string qry = @"Select * from admin_users where email = '" + user + "'and pass = '" + pass + "' ";
+            MySqlCommand cmd = new MySqlCommand(qry, con);
+            DataTable dt = new DataTable();
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            da.Fill(dt);
+            
+            if (dt.Rows.Count > 0)
+            {
+                isValid = true;
+            }
+
+            return isValid;
+        }
 
     }
 

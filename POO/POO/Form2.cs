@@ -32,13 +32,30 @@ namespace POO
 
         private void loginInStudent_Click(object sender, EventArgs e)
         {
-            
+           
 
         }
 
         private void loginInStudent_Click_1(object sender, EventArgs e)
         {
+            if (MainClass.isValidAdmin(guna2TextBox1.Text, guna2TextBox2.Text) == false)
+            {
 
+                Console.WriteLine("Log in failed!");
+                return;
+
+            }
+            else
+            {
+                loadingScreenAdmin loadingScreen = new loadingScreenAdmin();
+                this.Hide();
+                loadingScreen.Show();
+            }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
