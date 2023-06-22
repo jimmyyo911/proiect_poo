@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POO.AdminView;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -78,6 +79,16 @@ namespace POO
         private void adminDashboard_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExams_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmExamsView());
         }
     }
 }

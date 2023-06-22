@@ -34,7 +34,7 @@
             this.btnHelp = new Guna.UI2.WinForms.Guna2Button();
             this.btnInbox = new Guna.UI2.WinForms.Guna2Button();
             this.btnCalendar = new Guna.UI2.WinForms.Guna2Button();
-            this.CoursesBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExams = new Guna.UI2.WinForms.Guna2Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -56,7 +56,7 @@
             this.CenterPanel.Controls.Add(this.btnHelp);
             this.CenterPanel.Controls.Add(this.btnInbox);
             this.CenterPanel.Controls.Add(this.btnCalendar);
-            this.CenterPanel.Controls.Add(this.CoursesBtn);
+            this.CenterPanel.Controls.Add(this.btnExams);
             this.CenterPanel.Controls.Add(this.panel3);
             this.CenterPanel.Controls.Add(this.pictureBox1);
             this.CenterPanel.Controls.Add(this.Exit);
@@ -80,6 +80,7 @@
             this.btnDashboard.TabIndex = 19;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextOffset = new System.Drawing.Point(0, 21);
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // btnHelp
             // 
@@ -129,21 +130,22 @@
             this.btnCalendar.Text = "Calendar";
             this.btnCalendar.TextOffset = new System.Drawing.Point(0, 21);
             // 
-            // CoursesBtn
+            // btnExams
             // 
-            this.CoursesBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.CoursesBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.CoursesBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.CoursesBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.CoursesBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(70)))), ((int)(((byte)(91)))));
-            this.CoursesBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CoursesBtn.ForeColor = System.Drawing.Color.White;
-            this.CoursesBtn.Location = new System.Drawing.Point(2, 297);
-            this.CoursesBtn.Name = "CoursesBtn";
-            this.CoursesBtn.Size = new System.Drawing.Size(104, 88);
-            this.CoursesBtn.TabIndex = 11;
-            this.CoursesBtn.Text = "Courses";
-            this.CoursesBtn.TextOffset = new System.Drawing.Point(0, 21);
+            this.btnExams.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExams.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExams.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExams.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExams.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(70)))), ((int)(((byte)(91)))));
+            this.btnExams.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnExams.ForeColor = System.Drawing.Color.White;
+            this.btnExams.Location = new System.Drawing.Point(2, 297);
+            this.btnExams.Name = "btnExams";
+            this.btnExams.Size = new System.Drawing.Size(104, 88);
+            this.btnExams.TabIndex = 11;
+            this.btnExams.Text = "Exams";
+            this.btnExams.TextOffset = new System.Drawing.Point(0, 21);
+            this.btnExams.Click += new System.EventHandler(this.btnExams_Click);
             // 
             // panel3
             // 
@@ -286,7 +288,7 @@
         private Guna.UI2.WinForms.Guna2Button btnHelp;
         private Guna.UI2.WinForms.Guna2Button btnInbox;
         private Guna.UI2.WinForms.Guna2Button btnCalendar;
-        private Guna.UI2.WinForms.Guna2Button CoursesBtn;
+        private Guna.UI2.WinForms.Guna2Button btnExams;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;

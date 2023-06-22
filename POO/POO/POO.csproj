@@ -278,6 +278,30 @@
     <Compile Include="adminDashboard.Designer.cs">
       <DependentUpon>adminDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminModel\frmExamsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminModel\frmExamsAdd.Designer.cs">
+      <DependentUpon>frmExamsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateAdd.Designer.cs">
+      <DependentUpon>TemplateAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateView.Designer.cs">
+      <DependentUpon>TemplateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminView\frmExamsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminView\frmExamsView.Designer.cs">
+      <DependentUpon>frmExamsView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Courses.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -373,6 +397,18 @@
     </Compile>
     <EmbeddedResource Include="adminDashboard.resx">
       <DependentUpon>adminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminModel\frmExamsAdd.resx">
+      <DependentUpon>frmExamsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateAdd.resx">
+      <DependentUpon>TemplateAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateView.resx">
+      <DependentUpon>TemplateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminView\frmExamsView.resx">
+      <DependentUpon>frmExamsView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Courses.resx">
       <DependentUpon>Courses.cs</DependentUpon>

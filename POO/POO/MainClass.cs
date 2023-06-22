@@ -100,7 +100,7 @@ namespace POO
             {
 
                 MySqlCommand cmd = new MySqlCommand(qry, con);
-                cmd.CommandType=CommandType.Text;
+                cmd.CommandType = CommandType.Text;
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -142,7 +142,7 @@ namespace POO
 
 
 
-
+        //checks if the admin account is valid
         public static bool isValidAdmin(string user, string pass)
         {
 

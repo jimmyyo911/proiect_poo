@@ -134,3 +134,7 @@ C:\Users\razva\OneDrive\Desktop\Sem 2\POO\Proiect\proiect_poo\POO\POO\obj\x86\De
 C:\Users\razva\OneDrive\Desktop\Sem 2\POO\Proiect\proiect_poo\POO\POO\obj\x86\Debug\POO.exe
 C:\Users\razva\OneDrive\Desktop\Sem 2\POO\Proiect\proiect_poo\POO\POO\obj\x86\Debug\POO.pdb
 C:\Users\razva\OneDrive\Desktop\Sem 2\POO\Proiect\proiect_poo\POO\POO\obj\x86\Debug\POO.loadingScreenAdmin.resources
+C:\Users\razva\OneDrive\Desktop\Sem 2\POO\Proiect\proiect_poo\POO\POO\obj\x86\Debug\POO.AdminView.frmExamsView.resources
+C:\Users\razva\OneDrive\Desktop\Sem 2\POO\Proiect\proiect_poo\POO\POO\obj\x86\Debug\POO.TemplateAdd.resources
+C:\Users\razva\OneDrive\Desktop\Sem 2\POO\Proiect\proiect_poo\POO\POO\obj\x86\Debug\POO.TemplateView.resources
+C:\Users\razva\OneDrive\Desktop\Sem 2\POO\Proiect\proiect_poo\POO\POO\obj\x86\Debug\POO.AdminModel.frmExamsAdd.resources
