@@ -37,13 +37,14 @@
             this.HeaderLabel = new System.Windows.Forms.Label();
             this.CreditsLabel = new System.Windows.Forms.Label();
             this.txtCredits = new System.Windows.Forms.RichTextBox();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.SuspendLayout();
             // 
             // txtCourse
             // 
             this.txtCourse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCourse.ForeColor = System.Drawing.Color.Black;
-            this.txtCourse.Location = new System.Drawing.Point(72, 102);
+            this.txtCourse.Location = new System.Drawing.Point(78, 104);
             this.txtCourse.Multiline = false;
             this.txtCourse.Name = "txtCourse";
             this.txtCourse.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -55,7 +56,7 @@
             // 
             this.CourseLabel.AutoSize = true;
             this.CourseLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CourseLabel.Location = new System.Drawing.Point(68, 78);
+            this.CourseLabel.Location = new System.Drawing.Point(74, 80);
             this.CourseLabel.Name = "CourseLabel";
             this.CourseLabel.Size = new System.Drawing.Size(59, 21);
             this.CourseLabel.TabIndex = 13;
@@ -65,7 +66,7 @@
             // 
             this.DueLabel.AutoSize = true;
             this.DueLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DueLabel.Location = new System.Drawing.Point(69, 148);
+            this.DueLabel.Location = new System.Drawing.Point(75, 150);
             this.DueLabel.Name = "DueLabel";
             this.DueLabel.Size = new System.Drawing.Size(38, 21);
             this.DueLabel.TabIndex = 15;
@@ -75,7 +76,7 @@
             // 
             this.txtDue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDue.ForeColor = System.Drawing.Color.Black;
-            this.txtDue.Location = new System.Drawing.Point(73, 172);
+            this.txtDue.Location = new System.Drawing.Point(79, 174);
             this.txtDue.Multiline = false;
             this.txtDue.Name = "txtDue";
             this.txtDue.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -87,7 +88,7 @@
             // 
             this.PlaceLabel.AutoSize = true;
             this.PlaceLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlaceLabel.Location = new System.Drawing.Point(68, 223);
+            this.PlaceLabel.Location = new System.Drawing.Point(74, 225);
             this.PlaceLabel.Name = "PlaceLabel";
             this.PlaceLabel.Size = new System.Drawing.Size(46, 21);
             this.PlaceLabel.TabIndex = 17;
@@ -97,7 +98,7 @@
             // 
             this.txtPlace.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPlace.ForeColor = System.Drawing.Color.Black;
-            this.txtPlace.Location = new System.Drawing.Point(72, 247);
+            this.txtPlace.Location = new System.Drawing.Point(78, 249);
             this.txtPlace.Multiline = false;
             this.txtPlace.Name = "txtPlace";
             this.txtPlace.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -108,10 +109,10 @@
             // HeaderLabel
             // 
             this.HeaderLabel.AutoSize = true;
-            this.HeaderLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(70)))), ((int)(((byte)(91)))));
+            this.HeaderLabel.BackColor = System.Drawing.Color.White;
             this.HeaderLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeaderLabel.ForeColor = System.Drawing.Color.White;
-            this.HeaderLabel.Location = new System.Drawing.Point(154, 27);
+            this.HeaderLabel.ForeColor = System.Drawing.Color.Black;
+            this.HeaderLabel.Location = new System.Drawing.Point(149, 18);
             this.HeaderLabel.Name = "HeaderLabel";
             this.HeaderLabel.Size = new System.Drawing.Size(104, 25);
             this.HeaderLabel.TabIndex = 18;
@@ -121,7 +122,7 @@
             // 
             this.CreditsLabel.AutoSize = true;
             this.CreditsLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreditsLabel.Location = new System.Drawing.Point(68, 294);
+            this.CreditsLabel.Location = new System.Drawing.Point(74, 296);
             this.CreditsLabel.Name = "CreditsLabel";
             this.CreditsLabel.Size = new System.Drawing.Size(59, 21);
             this.CreditsLabel.TabIndex = 20;
@@ -131,7 +132,7 @@
             // 
             this.txtCredits.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCredits.ForeColor = System.Drawing.Color.Black;
-            this.txtCredits.Location = new System.Drawing.Point(72, 318);
+            this.txtCredits.Location = new System.Drawing.Point(78, 320);
             this.txtCredits.Multiline = false;
             this.txtCredits.Name = "txtCredits";
             this.txtCredits.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -139,11 +140,19 @@
             this.txtCredits.TabIndex = 19;
             this.txtCredits.Text = "";
             // 
+            // guna2Separator1
+            // 
+            this.guna2Separator1.Location = new System.Drawing.Point(32, 53);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(339, 10);
+            this.guna2Separator1.TabIndex = 21;
+            // 
             // frmExamsAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(402, 450);
+            this.Controls.Add(this.guna2Separator1);
             this.Controls.Add(this.CreditsLabel);
             this.Controls.Add(this.txtCredits);
             this.Controls.Add(this.HeaderLabel);
@@ -156,6 +165,9 @@
             this.Name = "frmExamsAdd";
             this.Text = "frmExamsAdd";
             this.Load += new System.EventHandler(this.frmExamsAdd_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.adminDashboard_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.adminDashboard_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.adminDashboard_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,5 +184,6 @@
         private System.Windows.Forms.Label HeaderLabel;
         private System.Windows.Forms.Label CreditsLabel;
         public System.Windows.Forms.RichTextBox txtCredits;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
     }
 }

@@ -14,6 +14,8 @@ namespace POO.AdminModel
 {
     public partial class frmExamsAdd : TemplateAdd
     {
+        private bool dragging = false;
+        private Point startPoint = new Point(0, 0);
         public frmExamsAdd()
         {
             InitializeComponent();
@@ -55,6 +57,25 @@ namespace POO.AdminModel
             }
         }
 
+        private void adminDashboard_MouseDown(object sender, MouseEventArgs e)
+        {
+            dragging = true;
+            startPoint = new Point(e.X, e.Y);
+        }
+
+        private void adminDashboard_MouseUp(object sender, MouseEventArgs e)
+        {
+            dragging = false;
+        }
+
+        private void adminDashboard_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (dragging)
+            {
+                Point p = PointToScreen(e.Location);
+                Location = new Point(p.X - this.startPoint.X, p.Y - this.startPoint.Y);
+            }
+        }
         private void frmExamsAdd_Load(object sender, EventArgs e)
         {
 
