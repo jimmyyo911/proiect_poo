@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.HomePanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnCourses = new Guna.UI2.WinForms.Guna2Button();
-            this.btnExams = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGrades = new Guna.UI2.WinForms.Guna2Button();
             this.btnSchedule = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGrades = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExams = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCourses = new Guna.UI2.WinForms.Guna2Button();
             this.CoursesPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.HomePanel.SuspendLayout();
             this.SuspendLayout();
@@ -49,35 +49,21 @@
             this.HomePanel.Size = new System.Drawing.Size(150, 450);
             this.HomePanel.TabIndex = 1;
             // 
-            // btnCourses
+            // btnSchedule
             // 
-            this.btnCourses.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCourses.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCourses.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCourses.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCourses.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCourses.ForeColor = System.Drawing.Color.White;
-            this.btnCourses.Location = new System.Drawing.Point(12, 93);
-            this.btnCourses.Name = "btnCourses";
-            this.btnCourses.Size = new System.Drawing.Size(126, 46);
-            this.btnCourses.TabIndex = 2;
-            this.btnCourses.Text = "Courses";
-            this.btnCourses.Click += new System.EventHandler(this.btnCourses_Click);
-            // 
-            // btnExams
-            // 
-            this.btnExams.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExams.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExams.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExams.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExams.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnExams.ForeColor = System.Drawing.Color.White;
-            this.btnExams.Location = new System.Drawing.Point(12, 202);
-            this.btnExams.Name = "btnExams";
-            this.btnExams.Size = new System.Drawing.Size(126, 46);
-            this.btnExams.TabIndex = 3;
-            this.btnExams.Text = "Exams";
-            this.btnExams.Click += new System.EventHandler(this.btnExams_Click);
+            this.btnSchedule.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSchedule.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSchedule.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSchedule.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSchedule.FillColor = System.Drawing.Color.Transparent;
+            this.btnSchedule.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSchedule.ForeColor = System.Drawing.Color.Black;
+            this.btnSchedule.Location = new System.Drawing.Point(12, 241);
+            this.btnSchedule.Name = "btnSchedule";
+            this.btnSchedule.Size = new System.Drawing.Size(126, 46);
+            this.btnSchedule.TabIndex = 5;
+            this.btnSchedule.Text = "Schedule";
+            this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
             // 
             // btnGrades
             // 
@@ -85,29 +71,48 @@
             this.btnGrades.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnGrades.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGrades.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGrades.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGrades.ForeColor = System.Drawing.Color.White;
-            this.btnGrades.Location = new System.Drawing.Point(12, 150);
+            this.btnGrades.FillColor = System.Drawing.Color.Transparent;
+            this.btnGrades.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGrades.ForeColor = System.Drawing.Color.Black;
+            this.btnGrades.Location = new System.Drawing.Point(12, 137);
             this.btnGrades.Name = "btnGrades";
             this.btnGrades.Size = new System.Drawing.Size(126, 46);
             this.btnGrades.TabIndex = 4;
             this.btnGrades.Text = "Grades";
             this.btnGrades.Click += new System.EventHandler(this.btnGrades_Click);
             // 
-            // btnSchedule
+            // btnExams
             // 
-            this.btnSchedule.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSchedule.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSchedule.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSchedule.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSchedule.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnSchedule.ForeColor = System.Drawing.Color.White;
-            this.btnSchedule.Location = new System.Drawing.Point(12, 254);
-            this.btnSchedule.Name = "btnSchedule";
-            this.btnSchedule.Size = new System.Drawing.Size(126, 46);
-            this.btnSchedule.TabIndex = 5;
-            this.btnSchedule.Text = "Schedule";
-            this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
+            this.btnExams.BackColor = System.Drawing.SystemColors.Control;
+            this.btnExams.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExams.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExams.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExams.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExams.FillColor = System.Drawing.Color.Transparent;
+            this.btnExams.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExams.ForeColor = System.Drawing.Color.Black;
+            this.btnExams.Location = new System.Drawing.Point(12, 189);
+            this.btnExams.Name = "btnExams";
+            this.btnExams.Size = new System.Drawing.Size(126, 46);
+            this.btnExams.TabIndex = 3;
+            this.btnExams.Text = "Exams";
+            this.btnExams.Click += new System.EventHandler(this.btnExams_Click);
+            // 
+            // btnCourses
+            // 
+            this.btnCourses.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCourses.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCourses.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCourses.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCourses.FillColor = System.Drawing.Color.Transparent;
+            this.btnCourses.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCourses.ForeColor = System.Drawing.Color.Black;
+            this.btnCourses.Location = new System.Drawing.Point(12, 85);
+            this.btnCourses.Name = "btnCourses";
+            this.btnCourses.Size = new System.Drawing.Size(126, 46);
+            this.btnCourses.TabIndex = 2;
+            this.btnCourses.Text = "Courses";
+            this.btnCourses.Click += new System.EventHandler(this.btnCourses_Click);
             // 
             // CoursesPanel
             // 

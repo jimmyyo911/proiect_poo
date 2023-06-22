@@ -115,3 +115,5 @@ F:\Poo_2\POO\POO\bin\Debug\K4os.Hash.xxHash.xml
 F:\Poo_2\POO\POO\bin\Debug\MySql.Data.xml
 F:\Poo_2\POO\POO\bin\Debug\System.IO.Pipelines.xml
 F:\Poo_2\POO\POO\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\Poo_2\POO\POO\obj\Debug\POO.Profile.resources
+F:\Poo_2\POO\POO\obj\Debug\POO.Help.resources
