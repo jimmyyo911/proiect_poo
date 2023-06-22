@@ -37,30 +37,32 @@ namespace POO
             con.Close();
 
         }
-
-      
-        
-
         public static bool isValidUser(string user, string pass) {
          
 
             bool isValid = false;
 
-            string qry = @"Select * from users where username = '" +user+ "'and upass = '" +pass+ "' ";
+            // string qry = @"Select * from users where username = '" +user+ "'and upass = '" +pass+ "' ";
+            string qry = @"SELECT * FROM students WHERE first_name = @user AND password = @pass";
             MySqlCommand cmd = new MySqlCommand(qry, con);
-            DataTable dt = new DataTable();
-            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-            da.Fill(dt);
+            cmd.Parameters.AddWithValue("@user", user);
+            cmd.Parameters.AddWithValue("@pass", pass);
 
-            if (dt.Rows.Count > 0) {
-                isValid = true;
-                USER = dt.Rows[0]["uName"].ToString();
+            con.Open();
+            using (MySqlDataReader reader = cmd.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    isValid = true;                 
+                    USER = reader["first_name"].ToString();
+                }
             }
+            con.Close();
 
             return isValid;
         }
 
-
+    
         public static string user;
 
         public static string USER {
