@@ -12,6 +12,8 @@ namespace POO
 {
     public partial class Form1 : Form
     {
+
+   
         public Form1()
         {
             InitializeComponent();
@@ -88,20 +90,25 @@ namespace POO
             
             if (MainClass.isValidUser(guna2TextBox1.Text, guna2TextBox2.Text) == false)
             {
+              
+             
 
-
-          
-
-                 Console.WriteLine("sucks");
-                 return;
+                return;
 
             }
             else {
+
+            
+             
+ 
+
                 loadingScreen loadingScreen = new loadingScreen();
                 this.Hide();
                 loadingScreen.Show();
             }
          
         }
+
+   
     }
 }

@@ -15,6 +15,7 @@ namespace POO
         public loadingScreen()
         {
             InitializeComponent();
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -23,6 +24,7 @@ namespace POO
             if(panel2.Width >= 700)
             {
                 timer1.Stop();
+                
                 studentDashboard studentDashboard = new studentDashboard();
                 studentDashboard.Show();
                 this.Hide();

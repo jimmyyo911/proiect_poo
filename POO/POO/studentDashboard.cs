@@ -18,6 +18,8 @@ namespace POO
         public studentDashboard()
         {
             InitializeComponent();
+
+            
           
         }
 
