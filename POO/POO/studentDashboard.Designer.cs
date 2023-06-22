@@ -125,7 +125,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(70)))), ((int)(((byte)(91)))));
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.guna2CirclePictureBox1);
             this.panel3.Location = new System.Drawing.Point(0, 123);
@@ -225,6 +225,7 @@
             this.btnHelp.TabIndex = 17;
             this.btnHelp.Text = "Help";
             this.btnHelp.TextOffset = new System.Drawing.Point(0, 21);
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // btnDashboard
             // 

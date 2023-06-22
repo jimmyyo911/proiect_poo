@@ -39,16 +39,7 @@ namespace POO
 
         
   
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -81,6 +72,7 @@ namespace POO
 
         private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
         {
+            AddControls(new Profile());
 
         }
 
@@ -94,40 +86,8 @@ namespace POO
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-
-        }
+     
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
@@ -136,43 +96,16 @@ namespace POO
      
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-            //flowLayoutPanel2.Visible = false;
-          
-        }
-     
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
            
         }
 
-        private void panel4_Click(object sender, EventArgs e)
-        {
-
-        }
+ 
 
         private void label2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button2_Click_1(object sender, EventArgs e)
         {
 
         }
@@ -195,6 +128,11 @@ namespace POO
         private void guna2Button6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            AddControls(new Help());
         }
     }
 }
